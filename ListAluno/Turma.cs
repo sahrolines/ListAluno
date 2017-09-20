@@ -13,5 +13,6 @@ namespace ListAluno
 
         public List<Aluno> Listaluno { get; set; }
         
+        
     }
 }
