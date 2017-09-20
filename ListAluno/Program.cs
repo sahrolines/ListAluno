@@ -67,17 +67,11 @@ namespace ListAluno
             prova1.Descricao = "Prova B1";
             prova1.Bimestre = 1;
 
-            // disciplina.ExibirDisciplina();
-            //turma.Listaturma();
-            //aluno.Listaluno();
-            //prova.Listaprova();
-            //trabalho.Listrabalho();
-
-            foreach (var itemturma in Listaluno)
+            foreach (var itemturma in turma1.Listaluno)
             {
-                Console.WriteLine(Listaluno);
+                Console.WriteLine(itemturma.NomeAluno);
             }
-
+            Console.Read();
         }
     }
 }
