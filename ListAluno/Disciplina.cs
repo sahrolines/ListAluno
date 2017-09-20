@@ -8,14 +8,6 @@ namespace ListAluno
 {
     public class Disciplina
     {
-        public void ExibirDisciplina()
-        {
-            String disciplina = "Programação Orientada a Objetos II";
-
-            Console.WriteLine(disciplina);
-            Console.Read();
-            
-        }
-
+        public string Nome { get; set; }
     }
 }

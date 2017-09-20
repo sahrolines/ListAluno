@@ -9,8 +9,9 @@ namespace ListAluno
     public class Trabalho
     {
         
-        public double trab1 { get; set; }
-        public double trab2 { get; set; }
+        public double nota { get; set; }
+        public string descricao { get; set; }
+        public int bimestre { get; set; }
 
         public Aluno Aluno { get; set; }
 

@@ -8,8 +8,9 @@ namespace ListAluno
 {
     public class Prova
     {
-        public double provab1 { get; set; }
-        public double provab2 { get; set; }
+        public double nota { get; set; }
+        public string descricao { get; set; }
+        public int bimestre { get; set; }
 
         public Aluno Aluno { get; set; }
     }
