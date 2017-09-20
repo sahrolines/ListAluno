@@ -6,20 +6,12 @@ using System.Threading.Tasks;
 
 namespace ListAluno
 {
-    class Prova
+    public class Prova
     {
-        public void Listaprova()
-        {
-            List<Prova> listaprova = new List<Prova>();
-           
-            foreach (var itemprova in listaprova)
-            {
-                Console.WriteLine(itemprova);
-            }
+        public double provab1 { get; set; }
+        public double provab2 { get; set; }
 
-            Console.WriteLine("Lista de Provas: " + listaprova.Count());
-            Console.ReadLine();
-
-        }
+        public Aluno Aluno { get; set; }
     }
+
 }

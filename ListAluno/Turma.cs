@@ -8,18 +8,18 @@ namespace ListAluno
 {
     public class Turma
     {
-        public void Listaturma()
-        {
-            List<Turma> listaturma = new List<Turma>();
-            
-            foreach (var itemturma in listaturma)
+        public Disciplina disciplina { get; set;}
+
+        List<Aluno> listaluno = new List<Aluno>();
+
+                    
+            foreach (var itemaluno in listaluno)
             {
-                Console.WriteLine(itemturma);
+                Console.WriteLine(itemaluno);
             }
 
-            Console.WriteLine("Lista de Turmas: " + listaturma.Count());
-            Console.ReadLine();
-
-        }
+            Console.WriteLine("Lista de Alunos: " + listaluno.Count());
+            Console.Read();
+      
     }
 }

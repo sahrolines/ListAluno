@@ -6,20 +6,14 @@ using System.Threading.Tasks;
 
 namespace ListAluno
 {
-    class Trabalho
+    public class Trabalho
     {
-        public void Listrabalho()
-        {
-            List<Trabalho> listrabalho = new List<Trabalho>();
+        
+        public double trab1 { get; set; }
+        public double trab2 { get; set; }
 
-            foreach (var itemtrabalho in listrabalho)
-            {
-                Console.WriteLine(itemtrabalho);
-            }
+        public Aluno Aluno { get; set; }
 
-            Console.WriteLine("Lista de Trabalhos: " + listrabalho.Count());
-            Console.ReadLine();
-
-        }
+    
     }
 }

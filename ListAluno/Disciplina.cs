@@ -13,8 +13,9 @@ namespace ListAluno
             String disciplina = "Programação Orientada a Objetos II";
 
             Console.WriteLine(disciplina);
-            Console.ReadLine();
+            Console.Read();
             
         }
+
     }
 }
