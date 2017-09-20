@@ -16,11 +16,11 @@ namespace ListAluno
             Trabalho trabalho = new Trabalho();
             Prova prova = new Prova();
 
-            disciplina.ExibirDisciplina();
+            // disciplina.ExibirDisciplina();
             turma.Listaturma();
-            aluno.Listaluno();
-            prova.Listaprova();
-            trabalho.Listrabalho();
+            //aluno.Listaluno();
+            //prova.Listaprova();
+            //trabalho.Listrabalho();
         }
     }
 }

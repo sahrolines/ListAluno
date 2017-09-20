@@ -10,9 +10,10 @@ namespace ListAluno
     {
         public Disciplina disciplina { get; set;}
 
-        List<Aluno> listaluno = new List<Aluno>();
+        public void Listaturma()
+        {
+            List<Aluno> listaluno = new List<Aluno>();
 
-                    
             foreach (var itemaluno in listaluno)
             {
                 Console.WriteLine(itemaluno);
@@ -20,6 +21,6 @@ namespace ListAluno
 
             Console.WriteLine("Lista de Alunos: " + listaluno.Count());
             Console.Read();
-      
+        }
     }
 }
